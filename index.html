@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <!--MEDIA-CSS-->
+    <link rel="stylesheet" href="media-css/common.css" />
+    <link rel="stylesheet" href="media-css/index.css" />
+    <!--css3ie8渲染-->
+    <script src="js/respond.min.js"></script>
+    <script type="text/javascript" src="[JS library]"></script>
+    <!--[if (gte IE 6)&(lte IE 8)]>
+    <script type="text/javascript" src="js/selectivizr.js"></script>
+    <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <div class="top-banner"><img class="top-banner-img" src="img/index/banner.png" /></div>
+    <div class="classify-content">
+        <div class="classify-container">
+            <div class="classify-01 clearfix">
+                <div class="classify-01-fl fl">
+                    <a href="station-col.html">
+                        <img class="classify-01-fl-img" src="img/index/classify-01.png" />
+                        <div class="classify-01-fl-t">空压站</div>
+                    </a>
+                </div>
+                <div class="classify-01-fl classify-01-fl-02 fl">
+                    <a>
+                        <img class="classify-01-fl-img" src="img/index/classify-02.png" />
+                        <div class="classify-01-fl-t">能效分析</div>
+                    </a>
+                </div>
+                <div class="classify-01-fl fl">
+                    <a>
+                        <img class="classify-01-fl-img" src="img/index/classify-03.png" />
+                        <div class="classify-01-fl-t">统计报表</div>
+                    </a>
+                </div>
+            </div>
+            <div class="classify-02 clearfix">
+                <!--获取设备-->
+
+                <!--获取设备 结束-->
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-container">版权所有：浙江宏基能源环保科技有限公司</div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js2/url.js"></script>
+<script src="js2/index.js"></script>
+<script type="text/javascript" src="js/jquery.min-1.0.js"></script>
+<script src="js/jquery.rotate.min.js"></script>
+<script>
+    $(".classify-01-fl").hover(function () {
+        $(this).find("img").rotateRight();
+    })
+</script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+/*信息*/
+.message-list{background-color: white;line-height: 100%;padding-top: 28px;padding-bottom: 19px;}
+.message-list-fl{    margin-left: 45px;font-size: 22px;color: #333333;}
+.message-list-fr{margin-right: 43px;font-size: 20px;color: #999999;}
+.message-list:nth-child(n+3){margin-top: 10px;}
+
+/*运行报告*/
+.report-list-fl{width: 12.3%;text-align: center;}
+.report-list-fl-02{font-size: 18px;color: #333333;line-height: 100%;margin-top: 19px;}
+.report-list{padding-top: 20px;padding-bottom: 16px;}
+.report-list-fr{font-size: 17px;}
+.report-list-fr-t1{color: #999999;line-height: 100%;}
+.report-s1{color: #333333;}
+.report-list-fr-t1-{color: #3475b4;margin-top: 7px;}
+.report-list-fr-t2{margin-top: 10px;}
+.report-title{color: #333333;font-size: 24px;line-height: 100%;margin-left: 14px;margin-top: 26px;padding-bottom: 17px;}
+.report-list:nth-child(n+3){margin-top: 5px;}
+.report-menu-item-container{padding-bottom: 36px;}
+
+
+/*历史图展示*/
+.chart{width: 800px;height: 400px;margin: auto;}

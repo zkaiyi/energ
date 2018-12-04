@@ -1,0 +1,47 @@
+@media screen and (max-width:1366px) and (min-width:992px){
+    .classify-01-fl-t{font-size: 24px;}
+    .classify-02-fl-t{font-size: 16px;}
+}
+@media screen and (max-width:992px) and (min-width:768px){
+    .classify-01-fl-t{font-size: 19px;}
+    .classify-02-fl-t{font-size: 13px;padding-bottom: 15px;}
+
+}
+@media screen and (max-width:768px) and (min-width:620px){
+    .classify-01-fl-t{font-size: 16px;}
+    .classify-02-fl-t{font-size: 12px;padding-bottom: 15px;}
+    .classify-02-fl{    width: 30.8%;margin-left: 0;margin-right: 0;}
+    .classify-02-fl:nth-child(3n-1){margin-left: 3.8%;margin-right: 3.8%;}
+    .classify-02-fl:nth-child(n+4){margin-top: 10px;}
+}
+@media screen and (max-width:620px) and (min-width:480px){
+    .classify-01-fl-t{font-size: 12px;}
+    .classify-02-fl-t{font-size: 13px;padding-bottom: 15px;}
+    .classify-02-fl{    width: 30.8%;margin-left: 0;margin-right: 0;}
+    .classify-02-fl:nth-child(3n-1){margin-left: 3.8%;margin-right: 3.8%;}
+    .classify-02-fl:nth-child(n+4){margin-top: 10px;}
+}
+@media screen and (max-width:480px) and (min-width:360px){
+    .classify-01-fl{    width: 25%;}
+    .classify-01-fl:nth-child(2) {margin-left: 11.5%;margin-right: 13.5%;}
+    .classify-01-fl-02{margin-left: 11.5%;margin-right: 13.5%;}
+    .classify-01-fl-t{font-size: 12px;}
+    .classify-02-fl-t{font-size: 13px;padding-bottom: 15px;}
+    .classify-02-fl{    width: 48%;margin-left: 0;margin-right: 0;}
+    .classify-02-fl:nth-child(2n+1){margin-right: 4%;}
+    .classify-02-fl:nth-child(n+3){margin-top: 10px;}
+    .classify-02{margin-top: 48px;}
+}
+@media screen and (max-width:360px){
+    .classify-01-fl{    width: 28%;}
+    .classify-01-fl:nth-child(2) {margin-left: 7%;margin-right: 9%;}
+    .classify-01-fl-02{margin-left: 7%;margin-right: 9%;}
+    .classify-01-fl-t{font-size: 12px;}
+    .classify-02-fl-t{font-size: 12px;padding-bottom: 15px;}
+    .classify-02-fl{    width: 48%;margin-left: 0;margin-right: 0;}
+    .classify-02-fl:nth-child(2n+1){margin-right: 4%;}
+    .classify-02-fl:nth-child(n+3){margin-top: 10px;}
+    .classify-02{margin-top: 48px;}
+
+
+}

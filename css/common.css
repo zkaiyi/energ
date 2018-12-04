@@ -1,0 +1,22 @@
+﻿html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+.clearfix:after{display: block;content: "";clear: both}
+.fl{float: left;}
+.fr{float: right;}
+.hide{display: none;}
+.addfix{position: fixed;}
+*{margin: 0;padding: 0;font-family: 微软雅黑}
+.over{overflow:hidden;}
+a:hover{cursor: pointer;font-family: 微软雅黑}
+.mouse:hover{cursor: pointer;}
+img{font-size: 0;vertical-align: bottom;border:0 none}
+button:hover{cursor: pointer;}
+
+html , body{
+    height: 100%;
+}
+.container{margin:0;padding:0;min-height: 100%;position: relative;padding-bottom:41px; }
+/*头部*/
+.top-banner , .top-banner-img{width: 100%;}
+/*尾巴*/
+.footer-container{width: 100%;height:41px;background-color: #004f9f;text-align: center;color: #d3d3d3;line-height: 41px;font-size: 14px;position: absolute;bottom: 0; }
+/*.footer-container-add{position: absolute;bottom:0;}*/

@@ -1,0 +1,57 @@
+/*1*/
+.gplot-list-01{position: relative;}
+.gplot-contaienr{width: 1200px;margin: auto;position: relative;margin-top: 100px;padding-bottom: 100px;}
+.gplot-list-01-img01{width: 10%;vertical-align: top;margin-top: 10%;position: relative;z-index: 1}
+.gplot-list-01-img02{width: 8%;vertical-align: top;margin-top: 12%;margin-left: -10px;position: relative;}
+.gplot-list-01-img03{width: 25%;vertical-align: top;margin-top: 5%;margin-left: -10px;position: relative;}
+.gplot-list-01-img04{width: 25%;vertical-align: top;margin-left: -10px;position: relative;z-index: -1;}
+.gplot-list-01-img05{width: 25%;margin-left: -10px;position: relative;}
+
+.gplot-content{position: absolute;width: 200px;border-radius: 15px;overflow: hidden; box-shadow: 1px 1px 5px black;}
+.gplot-content-title{font-size: 24px;color: white;background-color:#f07c4b;height:44px;line-height: 44px;padding-left: 33px;  }
+.gplot-content-t{font-size:18px;line-height: 24px;color: #333333;background-color:#eee4d2;  padding-left: 33px;padding-right: 33px;min-height: 160px;padding-top: 14px;}
+.gplot-c1{bottom: -10px;}
+.gplot-c23{position: absolute;top: 150px;right: 39%;}
+.gplot-c2{position: relative;}
+.gplot-c3{position: relative;margin-top:12px; }
+
+/*2*/
+.gplot-list-02{position: relative;}
+.gplot-list-01-img06{
+    width: 30%;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    margin-right:13%;
+    margin-top: 20px;position: relative;z-index: -1;
+}
+
+
+/*3*/
+.gplot-list-03{margin-top: 60px;}
+.gplot-list-01-img08{width: 35%;margin-left: 11%;vertical-align: top;}
+.gplot-list-01-img07{width: 25%;position: relative;margin-left: -10px;z-index: 2;}
+
+
+/*4*/
+.gplot-list-04{position: relative;margin-top: -285px;}
+.gplot-list-01-img10{position: relative;}
+.gplot-list-01-img09{width: 20%;}
+
+.gplot-c4{top: 100px;left: 20%;}
+.gplot-c5{top: 0;right: 10%;}
+
+
+
+
+/*重新*/
+.gplot-contaienr-bg-img{width: 100%;}
+.gplot-contaienr{position: relative;}
+
+/*1*/
+.gplot-c11{top: 280px;left: 20px;}
+.gplot-c22{top: 180px;right: 440px;width: 150px}
+.gplot-c33{top: 620px;left: 200px;}
+.gplot-c44{top: 620px;right: 440px;width: 150px}
