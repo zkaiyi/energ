@@ -1,1 +1,1 @@
-var callurl = "http://ny.imengxin.me/api";// 接口
+var callurl = "http://nyapi.imengxin.me";// 接口

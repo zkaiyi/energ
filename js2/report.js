@@ -1,14 +1,6 @@
-var id = window.location.href.split("typeid=")[1];
-var typeid =id;
-$(document).on("click","#menu01",function () {
-    window.location.href = "message.html?typeid="+typeid;
-});
-$(document).on("click","#menu02",function () {
-    window.location.href = "monitor.html?typeid="+typeid;
-});
-$(document).on("click","#menu03",function () {
-    window.location.href = "gplot.html?typeid="+typeid;
-});
-// $(document).on("click","#menu04",function () {
-//     window.location.href = "report.html?typeid="+typeid;
-// });
+var need_url = window.location.href.split("?")[1];
+var a=need_url.split("&");       //将结果用&符分隔
+var id = a[0].split("=")[1]; //参数值1
+
+
+$(".type").html("空压站")

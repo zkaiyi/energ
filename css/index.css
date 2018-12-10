@@ -25,7 +25,12 @@ html{background-color: #edf4fa;}
 .classify-02-fl-img{vertical-align: middle;}
 .classify-02-fl:nth-child(1){margin-left: 0;}
 .classify-02-fl:first-child{margin-left: 0;}
-.classify-02-fl:nth-last-child(1){margin-right: 0;}
+/*.classify-02-fl:nth-last-child(1){margin-right: 0;}*/
+.classify-02-fl:nth-child(6n){margin-right: 0;}
+.classify-02-fl:nth-child(6n+1){margin-left: 0;}
+.classify-02-fl:nth-child(n+7){margin-top: 10px}
+
+
 .classify-02-fl-t{font-size: 18px;color: #333333;line-height: 100%;margin-top: 8px;padding-bottom: 22px;}
 
 /*修改*/

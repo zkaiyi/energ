@@ -2,9 +2,17 @@
     .gplot-contaienr{width: 100%;}
 
     .gplot-c11{top:25%;left: 20px;}
-    .gplot-c22{    top: 150px;right: 35%;width: 150px}
+    .gplot-c22{       top: 100px;right: 45%;width: 150px}
     .gplot-c33{    top: 58%;left: 15%;}
     .gplot-c44{    top: 58%;right: 32%;width: 150px}
+
+
+
+    .gplot-c55{       top: 200px;right: 30%;width: 150px}
+    .gplot-c66{       top: 58%;right: 10%;width: 150px}
+
+
+
 
 
 }
@@ -12,16 +20,24 @@
     .gplot-contaienr{width: 100%;}
 
     .gplot-c11{top:25%;left: 20px;width: 180px}
-    .gplot-c22{    top: 150px;right: 35%;width: 150px}
+    .gplot-c22{       top: 100px;right: 45%;width: 150px}
     .gplot-c33{    top: 58%;left: 15%;width: 180px}
     .gplot-c44{    top: 58%;right: 32%;width: 150px}
     .gplot-content-t{min-height: 120px;font-size: 15px;}
 
+    .gplot-c55{       top: 200px;right: 30%;width: 150px}
+    .gplot-c66{       top: 58%;right: 10%;width: 150px}
+
+
+
 }
 @media screen and (max-width:768px) and (min-width:320px){
+
+    .ret-contaienr-compi{display: none;}
     .gplot-contaienr{display: none;}
     .gplot-contaienr-p{display: block;width: 100%;}
     html{orientation: landscape;}
+    .gplot-content-title{font-size: 14px;width: 100%;text-align: center;padding-left: 0;}
 
     .gplot-contaienr-bg-p{width: 100%;overflow: auto;   min-height: 350px;padding-top: 30px;}
     .gplot-contaienr-bg-p-img{width: 1200px;}
@@ -35,9 +51,14 @@
     .gplot-content-t{font-size: 12px;padding-left: 2%;padding-right: 2%;min-height: 100px;}
 
     .gplot-c11{width: 100px; left: 10px;top: 45px}
-    .gplot-c22{width: 100px; left: 300px;top: 20px;}
+    .gplot-c22{width: 100px; left:200px;top: 0;}
     .gplot-c33{width: 100px; left: 800px;top: 20px;}
     .gplot-c44{width: 100px; left: 350px;top: 20px;}
+
+    .gplot-c55{width: 100px; left: 300px;top: 20px;}
+    .gplot-c66{width: 100px; left: 350px;top: 20px;}
+
+
 
 }
 @media screen and (orientation:portrait) {

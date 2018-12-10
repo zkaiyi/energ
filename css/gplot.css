@@ -7,9 +7,9 @@
 .gplot-list-01-img04{width: 25%;vertical-align: top;margin-left: -10px;position: relative;z-index: -1;}
 .gplot-list-01-img05{width: 25%;margin-left: -10px;position: relative;}
 
-.gplot-content{position: absolute;width: 200px;border-radius: 15px;overflow: hidden; box-shadow: 1px 1px 5px black;}
-.gplot-content-title{font-size: 24px;color: white;background-color:#f07c4b;height:44px;line-height: 44px;padding-left: 33px;  }
-.gplot-content-t{font-size:18px;line-height: 24px;color: #333333;background-color:#eee4d2;  padding-left: 33px;padding-right: 33px;min-height: 160px;padding-top: 14px;}
+.gplot-content{position: absolute;width: 200px;border-radius: 15px;overflow: hidden; box-shadow: 1px 1px 5px black;padding-bottom: 14px;background-color: #eee4d2 }
+.gplot-content-title{font-size: 20px;color: white;background-color:#f07c4b;height:44px;line-height: 44px;padding-left: 33px;  }
+.gplot-content-t{font-size:18px;line-height: 30px;color: #333333;background-color:#eee4d2;  padding-left: 20px;padding-right: 20px;letter-spacing: -0.5px;}
 .gplot-c1{bottom: -10px;}
 .gplot-c23{position: absolute;top: 150px;right: 39%;}
 .gplot-c2{position: relative;}
@@ -52,6 +52,13 @@
 
 /*1*/
 .gplot-c11{top: 280px;left: 20px;}
-.gplot-c22{top: 180px;right: 440px;width: 150px}
+.gplot-c22{top: 50px;right: 530px;width: 150px}
 .gplot-c33{top: 620px;left: 200px;}
 .gplot-c44{top: 620px;right: 440px;width: 150px}
+.gplot-c55{top: 220px;right: 380px;width: 150px}
+.gplot-c66{top: 620px;right: 100px;width: 150px}
+
+
+/*12.05*/
+.ret-contaienr-img:hover{cursor: pointer;}
+.ret-contaienr{margin-left: 20px ;margin-top: 20px}

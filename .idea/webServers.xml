@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="491af69f-8bf1-409b-b536-d90bbf426387" name="zky" url="http://192.168.3.8:8082/energy">
+        <fileTransfer port="0" mountedRoot="F:\ZKY\ZKY\energy11.19\html\12.04-22.02\energy" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

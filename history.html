@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html   >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -13,7 +13,10 @@
     <!--MEDIA-CSS-->
     <link rel="stylesheet" href="media-css/common.css" />
     <link rel="stylesheet" href="media-css/col.css" />
+    <link rel="stylesheet" href="media-css/monitor.css" />
     <link rel="stylesheet" href="media-css/message.css" />
+    <link rel="stylesheet" href="media-css/history.css" />
+
     <!--css3ie8渲染-->
     <script src="js/respond.min.js"></script>
     <script type="text/javascript" src="[JS library]"></script>
@@ -42,24 +45,24 @@
     </div>
     <div class="row-menu-container">
         <div class="row-menu clearfix">
-            <div class="row-menu-list  fl" id="menu01">
-                <img class="row-menu-list-img row-menu-list-img01 " src="img/col-list/menu01.png" /><img class="row-menu-list-img row-menu-list-img-add row-menu-list-img01 hide " src="img/col-list/menu01-a.png" />基本信息
+            <div class="row-menu-list fl" id="menu01">
+                <img class="row-menu-list-img row-menu-list-img01" src="img/col-list/menu01.png" /><img class="row-menu-list-img row-menu-list-img-add row-menu-list-img01 hide" src="img/col-list/menu01-a.png" />基本信息
             </div>
-            <div class="row-menu-list fl" id="menu02">
-                <img class="row-menu-list-img row-menu-list-img02" src="img/col-list/menu02.png" /><img class="row-menu-list-img row-menu-list-img-add hide row-menu-list-img02" src="img/col-list/menu02-a.png" />实时监测
+            <div class="row-menu-list row-menu-list-add fl" id="menu02">
+                <img class="row-menu-list-img row-menu-list-img02 hide" src="img/col-list/menu02.png" /><img class="row-menu-list-img row-menu-list-img-add  row-menu-list-img02" src="img/col-list/menu02-a.png" />实时监测
             </div>
-            <div class="row-menu-list fl row-menu-list-add" id="menu03">
+            <div class="row-menu-list fl" id="menu03">
                 <img class="row-menu-list-img row-menu-list-img03" src="img/col-list/menu03.png" /><img class="row-menu-list-img row-menu-list-img-add hide row-menu-list-img03" src="img/col-list/menu03-a.png" />拓扑图展示
             </div>
-            <div class="row-menu-list fl " id="menu04">
-                <img class="row-menu-list-img row-menu-list-img04 hide" src="img/col-list/menu04.png" /><img class="row-menu-list-img row-menu-list-img-add  row-menu-list-img04" src="img/col-list/menu04-a.png" />运行报告
+            <div class="row-menu-list fl" id="menu04">
+                <img class="row-menu-list-img row-menu-list-img04" src="img/col-list/menu04.png" /><img class="row-menu-list-img row-menu-list-img-add hide row-menu-list-img04" src="img/col-list/menu04-a.png" />运行报告
             </div>
         </div>
     </div>
 
-    <div class="row-menu-item-container report-menu-item-container">
+    <div class="row-menu-item-container report-menu-item-container history-menu-item-container">
         <div class="menu-item-list-container">
-            <div class="report-title">供气压力曲线图</div>
+            <div class="report-title"></div>
             <!--数据图表-->
             <div class="chart " id="chart01"></div>
             <!--数据图表 结束-->
@@ -71,7 +74,9 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/echarts.js"></script>
 <script src="js2/url.js"></script>
+<script src="js2/search.js"></script>
 <script src="js2/history.js"></script>
+
 <script type="text/javascript" src="js/jquery.min-1.0.js"></script>
 <script src="js/jquery.rotate.min.js"></script>
 <script src="js/jquery.corner.js"></script>

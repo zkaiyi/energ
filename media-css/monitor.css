@@ -63,6 +63,15 @@
     .menu-item-list-title-fr-img{width: 9.6px;height:16px;}
     .milclf-img{width: 8px;height:12.8px;display: none;}
     .menu-item-list-title-fr{margin-right: 3%;}
+
+
+    /*菜单一*/
+    .row-menu{width: 100%;}
+    .row-menu-list{width:35%;margin-left: 6.25%;margin-right: 6.25%;font-size: 12px;height: 50px;line-height: 50px;margin-top: 19px;}
+    .row-menu-list:nth-child(1){margin-left:6.25%;}
+    .row-menu-list-img{margin-right:5%;width: 20%;}
+    .row-menu-list-img03{margin-right: 5%;}
+    .row-menu-container{height: auto;padding-bottom: 19px;}
 }
 @media screen and (max-width:360px){
     /*菜单一*/

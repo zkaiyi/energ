@@ -29,13 +29,17 @@
 }
 .menu-item-list-title-fr{margin-right: 42px;}
 .menu-item-list-content-list{background-color: white;line-height: 100%;padding-top: 28px;padding-bottom: 19px;margin-top: 1px;}
+.menu-item-list-content-list:hover{cursor: pointer;}
 .menu-item-list-content-list:nth-child(1){margin-top: 0;}
 .menu-item-list-content-list-fl{margin-left: 45px;font-size: 22px;color: #333333;}
 .menu-item-list-content-list-fr{margin-right: 43px;font-size: 20px;color: #999999;}
 .milclf-img{margin-left: 22px;}
 
 
-.menu-item-list-content{display: none;}
+/*.menu-item-list-content{display: none;}*/
 .menu-item-list-title-fr-img-add02 .menu-item-list-title-fr-img{transform: rotate(-90deg);}
 
+/*12.05*/
+.menu03-add:hover{color: #333333;}
+.menu-item-list-content-list:hover{cursor: pointer;}
 
