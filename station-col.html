@@ -21,7 +21,13 @@
 </head>
 <body>
 <div class="container">
-    <div class="top-banner"><img class="top-banner-img" src="img/index/banner.png" /></div>
+    <!--<div class="top-banner">能源管理中心</div>-->
+    <div class="new-search hide">
+        <div class="new-search-input">
+            <img class="new-search-input-img" src="img/col/new-search.png" />
+            <input class="new-search-input-i" placeholder="搜索">
+        </div>
+    </div>
     <div class="return-container clearfix">
         <div class="return-container-fl fl">
             <a href="index.html">
@@ -52,5 +58,8 @@
 <script type="text/javascript" src="js/jquery.min-1.0.js"></script>
 <script src="js/jquery.corner.js"></script>
 <script src="js/station.js"></script>
+<script>
+    $(".new-search-input").corner("20px");
+</script>
 </body>
 </html>

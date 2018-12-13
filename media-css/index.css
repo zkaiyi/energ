@@ -1,10 +1,35 @@
-@media screen and (max-width:1366px) and (min-width:992px){
+@media screen and (max-width:1366px) and (min-width:1280px){
     .classify-01-fl-t{font-size: 24px;}
     .classify-02-fl-t{font-size: 16px;}
+
 }
+
+@media screen and (max-width:1280px) and (min-width:992px){
+    .classify-01-fl-t{font-size: 24px;}
+    .classify-02-fl-t{font-size: 16px;}
+
+
+    /*每日提醒*/
+    .remind{width: 600px;}
+    /*实时状态*/
+    .status-contaienr-content{    width: 900px;}
+    .status-list{width: 90%;}
+
+}
+
+
 @media screen and (max-width:992px) and (min-width:768px){
     .classify-01-fl-t{font-size: 19px;}
     .classify-02-fl-t{font-size: 13px;padding-bottom: 15px;}
+
+    /*每日提醒*/
+    .remind{width: 600px;}
+    /*实时状态*/
+    .status-contaienr-content{    width: 700px;}
+    .status-list{width: 85%;}
+
+
+
 
 }
 @media screen and (max-width:768px) and (min-width:620px){
@@ -13,6 +38,29 @@
     .classify-02-fl{    width: 30.8%;margin-left: 0;margin-right: 0;}
     .classify-02-fl:nth-child(3n-1){margin-left: 3.8%;margin-right: 3.8%;}
     .classify-02-fl:nth-child(n+4){margin-top: 10px;}
+
+    /*三个菜单*/
+    .classify-01{width: 90%;}
+
+
+    /*设备入口*/
+    .classify-02{width: 100%;}
+
+    /*每日提醒*/
+    .remind{width: auto;}
+    .remind-f-top{font-size: 22px}
+    .remind-f{width: 95%;display: block;margin: auto;float: none;}
+    .remind-f-content01-fl{width: 28%;margin-left: 4%;}
+    .remind-f-content02-fl-container{margin-left:14%;}
+    /*实时状态*/
+    .status-contaienr-content{ width: 95%;}
+    .status-list{width: 85%;}
+    .status-list-item-fr{font-size: 20px;}
+    .status-list-item-fl{left: -6%;}
+
+
+
+
 }
 @media screen and (max-width:620px) and (min-width:480px){
     .classify-01-fl-t{font-size: 12px;}
@@ -20,6 +68,31 @@
     .classify-02-fl{    width: 30.8%;margin-left: 0;margin-right: 0;}
     .classify-02-fl:nth-child(3n-1){margin-left: 3.8%;margin-right: 3.8%;}
     .classify-02-fl:nth-child(n+4){margin-top: 10px;}
+
+
+    /*三个菜单*/
+    .classify-01{width: 90%;}
+
+
+    /*设备入口*/
+    .classify-02{width: 100%;}
+
+    /*每日提醒*/
+    .remind{width: auto;}
+    .remind-f-top{font-size: 20px}
+    .remind-f{width: 95%;display: block;margin: auto;float: none;}
+    .remind-f-content01-fl{width: 28%;margin-left: 4%;}
+    .remind-f-content02-fl-container{margin-left:9%;}
+    /*实时状态*/
+    .status-contaienr-content{ width: 95%;}
+    .status-list{width: 85%;}
+    .status-list-item-fr{font-size: 18px;}
+    .status-list-item-fl{left: -6%;}
+    .s-item-img{margin-right: 2px;}
+
+
+
+
 }
 @media screen and (max-width:480px) and (min-width:360px){
     .classify-01-fl{    width: 25%;}
@@ -31,6 +104,57 @@
     .classify-02-fl:nth-child(2n+1){margin-right: 4%;}
     .classify-02-fl:nth-child(n+3){margin-top: 10px;}
     .classify-02{margin-top: 48px;}
+
+    /*三个菜单*/
+    .classify-01{width: 90%;}
+    .classify-content{padding-bottom: 13px;}
+
+
+    /*设备入口*/
+    .classify-02{width: 100%;}
+    .classify-02-fl{width: 49.6%;}
+    .classify-02-fl:nth-child(n+3) {margin-top: 1px;}
+    .classify-02-fl:nth-child(2n+1) {margin-right: 0.4%;}
+    .classify-02-fl-img{    width: 18%;    padding-top: 10%;}
+
+
+    /*每日提醒*/
+    .remind{width: auto;}
+    .remind-f-top{font-size: 20px}
+    .remind-f{width: 95%;display: block;margin: auto;float: none;}
+    .remind-f-content01-fl{width: 30%;margin-left: 2.5%;}
+    .remind-f-content02-fl-container{margin-left:12%;}
+    .remind-f-content01-fl{height: 60px;line-height: 60px;font-size: 12px;}
+    .remind-f-content01{margin-top: 20px;}
+    .remind-f-top-span{height: 20px;}
+    .remind-f-top{height: 60px;line-height: 60px;}
+    .remind-f:last-child{margin-top: 20px;}
+    .remind-f-content02-fl-container{width: 60px;}
+    .remind-f-content02-fl{width: 60px;height: 60px;}
+    .remind-f-content02-fl-tt{font-size: 12px;}
+    .remind-f-content02-fl-img{width: 50%;vertical-align: middle;margin-top: 15px;}
+    .remind-f-content02-fl-tt02{display: block;color:#fc5d56;margin-top: 5px; }
+    /*实时状态*/
+    .status-contaienr{padding-top: 20px;}
+    .status-contaienr-content{ width: 95%;}
+    .status-list{width: 85%;}
+    .status-list-item-fr{font-size: 12px;}
+    .status-list-item-fl{left: -6%;}
+    .s-item-img{margin-right: 2px;width:20px; }
+    .status-list-item-fl-img{width: 12px;}
+    .status-list-item-fl{top: 15px;}
+    .status-list-item{border-bottom: none;}
+    .status-list-item-fr{line-height: 40px;}
+    .status-l-item-fr-t01{width: 20%;}
+    .status-l-item-fr-t02{width: 30%;text-align: left;border-bottom: 1px solid #d3d3d3;}
+    .status-l-item-fr-t03{width: 40%;float: right;border-bottom: 1px solid #d3d3d3;}
+
+    .status-list-items{text-align: center;display: block;}
+    .status-list-items{cursor: pointer;}
+
+
+
+
 }
 @media screen and (max-width:360px){
     .classify-01-fl{    width: 28%;}
@@ -42,6 +166,57 @@
     .classify-02-fl:nth-child(2n+1){margin-right: 4%;}
     .classify-02-fl:nth-child(n+3){margin-top: 10px;}
     .classify-02{margin-top: 48px;}
+
+    /*三个菜单*/
+    .classify-01{width: 95%;}
+    .classify-content{padding-bottom: 13px;}
+
+    /*设备入口*/
+    .classify-02{width: 100%;}
+    .classify-02-fl{width: 49.6%;}
+    .classify-02-fl:nth-child(n+3) {margin-top: 1px;}
+    .classify-02-fl:nth-child(2n+1) {margin-right: 0.4%;}
+    .classify-02-fl-img{    width: 18%;    padding-top: 10%;}
+
+
+    /*每日提醒*/
+    .remind{width: auto;}
+    .remind-f-top{font-size: 20px}
+    .remind-f{width: 95%;display: block;margin: auto;float: none;}
+    .remind-f-content01-fl{width: 30%;margin-left: 2.5%;}
+    .remind-f-content02-fl-container{margin-left:12%;}
+    .remind-f-content01-fl{height: 60px;line-height: 60px;font-size: 12px;}
+    .remind-f-content01{margin-top: 20px;}
+    .remind-f-top-span{height: 20px;}
+    .remind-f-top{height: 60px;line-height: 60px;}
+    .remind-f:last-child{margin-top: 20px;}
+    .remind-f-content02-fl-container{width: 60px;}
+    .remind-f-content02-fl{width: 60px;height: 60px;}
+    .remind-f-content02-fl-tt{font-size: 12px;}
+    .remind-f-content02-fl-img{width: 50%;vertical-align: middle;margin-top: 15px;}
+
+    .remind-f-content02-fl-tt02{display: block;color:#fc5d56;margin-top: 5px; }
+
+
+    /*实时状态*/
+    .status-contaienr{padding-top: 20px;}
+    .status-contaienr-content{ width: 95%;}
+    .status-list{width: 85%;}
+    .status-list-item-fr{font-size: 12px;}
+    .status-list-item-fl{left: -6%;}
+    .s-item-img{margin-right: 2px;width:20px; }
+    .status-list-item-fl-img{width: 12px;}
+    .status-list-item-fl{top: 15px;}
+    .status-list-item{border-bottom: none;}
+    .status-list-item-fr{line-height: 40px;}
+    .status-l-item-fr-t01{width: 20%;}
+    .status-l-item-fr-t02{width: 30%;text-align: left;border-bottom: 1px solid #d3d3d3;}
+    .status-l-item-fr-t03{width: 40%;float: right;border-bottom: 1px solid #d3d3d3;}
+
+    .status-list-items{text-align: center;display: block;}
+    .status-list-items{cursor: pointer;}
+
+
 
 
 }

@@ -65,6 +65,9 @@
     .menu-item-list-title-fr{margin-right: 3%;}
 
 
+    /*四个图表*/
+
+
     /*菜单一*/
     .row-menu{width: 100%;}
     .row-menu-list{width:35%;margin-left: 6.25%;margin-right: 6.25%;font-size: 12px;height: 50px;line-height: 50px;margin-top: 19px;}
@@ -72,6 +75,19 @@
     .row-menu-list-img{margin-right:5%;width: 20%;}
     .row-menu-list-img03{margin-right: 5%;}
     .row-menu-container{height: auto;padding-bottom: 19px;}
+
+
+
+    /*四个图表*/
+    .row-menu-list{width: 55px;height: 55px;position: relative;margin-left: 3.6%;}
+    .row-menu-list-t{display: block;position: absolute;width: 75px;left: 0;text-align: left;}
+    .row-menu-list-img{    width: 50%;}
+    .row-menu-container{padding-bottom: 39px;}
+    .row-menu-list-t{color: white;}
+    .row-menu-list-t-add{color: #ffc700;}
+
+
+
 }
 @media screen and (max-width:360px){
     /*菜单一*/

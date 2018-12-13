@@ -2,12 +2,17 @@
     /*搜索栏*/
     .return-container{width: 990px;}
 
+    /*banner*/
+    .top-banner{height: 300px;background-size: 100% 100%;font-size: 45px;line-height: 300px;}
 }
 @media screen and (max-width:992px) and (min-width:768px){
     /*搜索栏*/
     .return-container{width: 760px;}
     .return-container-fr{margin-top: 25px;width: 500px;}
     .return-search-02{width: 70%;}
+
+    /*banner*/
+    .top-banner{height: 280px;background-size: 100% 100%;font-size: 45px;line-height: 280px;}
 
 }
 @media screen and (max-width:768px) and (min-width:620px){
@@ -17,6 +22,11 @@
     .return-search-02{width: 70%;}
     .return-container-fl{width: 132px;}
     .return-search-03{width: 16%;}
+
+    /*banner*/
+    .top-banner{height: 280px;background-size: 100% 100%;font-size: 42px;line-height: 280px;}
+
+
 }
 @media screen and (max-width:620px) and (min-width:480px){
     /*搜索栏*/
@@ -28,6 +38,10 @@
     .return-search-01, .return-search-02, .return-search-03{line-height: 50px;}
     .return-search-02-int{font-size: 14px;}
     .return-container-fl-img{width: 24px;height: 22.4px;}
+
+
+    /*banner*/
+    .top-banner{height: 250px;background-size: 100% 100%;font-size: 38px;line-height: 250px;background-image: url("../img/index/banner-02.png")}
 }
 @media screen and (max-width:480px) and (min-width:360px){
     /*主题*/
@@ -47,6 +61,19 @@
     /*大菜单*/
     .type{font-size: 18px;}
     .type-container{height: 58px;line-height: 58px;}
+
+    /*banner*/
+    .top-banner{height: 200px;background-size: 100% 100%;font-size: 38px;line-height: 200px;background-image: url("../img/index/banner-02.png")}
+
+    /*底部*/
+    .footer-container{height: 45px;line-height: 45px;font-size: 14px;}
+
+    .return-container{display: none;}
+    .type-container{display: none;}
+
+
+
+
 }
 @media screen and (max-width:360px){
     /*主题*/
@@ -68,6 +95,18 @@
     /*大菜单*/
     .type{font-size: 18px;}
     .type-container{height: 58px;line-height: 58px;}
+
+    /*banner*/
+    .top-banner{height: 180px;background-size: 100% 100%;font-size: 38px;line-height: 180px;background-image: url("../img/index/banner-02.png")}
+
+
+    /*底部*/
+    .footer-container{height: 45px;line-height: 45px;font-size: 14px;}
+
+
+    .return-container{display: none;}
+    .type-container{display: none;}
+
 
 
 }

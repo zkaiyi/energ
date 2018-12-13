@@ -26,7 +26,7 @@ if(keyword){
             for(var i= 0 ;i<data.length;i++){
                 var html = '<div class="col-container-item clearfix" data-typeid="'+data[i].ID+'">\n' +
                     '            <a >\n' +
-                    '                <div class="col-container-item-fl fl"><img class="col-container-item-fl-img" src="img/col/col-item-icon.png" /></div>\n' +
+                    '                <div class="col-container-item-fl fl"><img class="col-container-item-fl-img col-container-item-fl-img-adds01" src="img/col/col-item-icon.png" /><img class="col-container-item-fl-img col-container-item-fl-img-adds hide" src="img/col/col-item-iconss.png" /></div>\n' +
                     '                <div class="col-container-item-fr fl">\n' +
                     '                    <div class="col-container-item-fr-t1">空压站名称：<span class="col-container-item-fr-t1-span">'+data[i].Name+'</span></div>\n' +
                     '                    <div class="col-container-item-fr-t2">设  备 名 称：<span class="col-container-item-fr-t1-span">'+data[i].MemberName+'</span></div>\n' +
@@ -70,7 +70,7 @@ if(keyword){
                 for(var i= 0 ;i<data.length;i++){
                     var html = '<div class="col-container-item clearfix" data-typeid="'+data[i].ID+'">\n' +
                         '            <a >\n' +
-                        '                <div class="col-container-item-fl fl"><img class="col-container-item-fl-img" src="img/col/col-item-icon.png" /></div>\n' +
+                        '                <div class="col-container-item-fl fl"><img class="col-container-item-fl-img col-container-item-fl-img-adds01" src="img/col/col-item-icon.png" /><img class="col-container-item-fl-img col-container-item-fl-img-adds hide" src="img/col/col-item-iconss.png" /></div>\n' +
                         '                <div class="col-container-item-fr fl">\n' +
                         '                    <div class="col-container-item-fr-t1">设  备 名 称：<span class="col-container-item-fr-t1-span">'+data[i].Name+'</span></div>\n' +
                         '                    <div class="col-container-item-fr-t2">设  备 用 户：<span class="col-container-item-fr-t1-span">'+data[i].MemberName+'</span></div>\n' +
