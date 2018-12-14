@@ -9,6 +9,12 @@ $(document).on("click",".new-search-input-img",function () {
 });
 
 
+$(".new-search-input-i").bind("search", function() {
+    //要执行的方法
+    var keyword = $(".new-search-input-i").val();
+    window.location.href = "station-col.html?keyword="+encodeURI(keyword);
+});
+
 
 
 
