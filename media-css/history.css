@@ -18,9 +18,37 @@
     /*图表*/
     .chart{width: 350px;height: 250px;}
 
+
+
+    /*横屏*/
+    html{orientation: landscape;}
+    .row-menu-list{margin-left:7%;margin-right: 7%;}
+    .row-menu-list:nth-child(1){margin-left: 14%;}
+    .chart{width: 450px;height: 300px;}
+
+
 }
 @media screen and (max-width:360px){
     .report-title{width: 100%;margin-left: 0;}
     /*图表*/
     .chart{width: 310px;height: 200px;}
+
+
+
+    /*横屏*/
+    html{orientation: landscape;}
+    .row-menu-list{margin-left:7%;margin-right: 7%;}
+    .row-menu-list:nth-child(1){margin-left: 12%;}
+    .chart{width: 450px;height: 300px;}
+}
+
+
+/*横屏*/
+@media screen and (orientation:portrait) {
+    body {
+        transform-origin: 0 0;
+        transform: rotateZ(90deg) translateY(-100%);
+    }
+
+
 }
