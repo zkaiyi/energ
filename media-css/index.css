@@ -134,6 +134,10 @@
     .remind-f-content02-fl-tt{font-size: 12px;}
     .remind-f-content02-fl-img{width: 50%;vertical-align: middle;margin-top: 15px;}
     .remind-f-content02-fl-tt02{display: block;color:#fc5d56;margin-top: 5px; }
+    /*12.14*/
+    .remind-f-top-span {height: 17px;width: 4px;}
+
+
     /*实时状态*/
     .status-contaienr{padding-top: 20px;}
     .status-contaienr-content{ width: 95%;}
@@ -151,6 +155,7 @@
 
     .status-list-items{text-align: center;display: block;}
     .status-list-items{cursor: pointer;}
+    .status-list-item-img{width: 20%;}
 
 
 
@@ -194,8 +199,9 @@
     .remind-f-content02-fl{width: 60px;height: 60px;}
     .remind-f-content02-fl-tt{font-size: 12px;}
     .remind-f-content02-fl-img{width: 50%;vertical-align: middle;margin-top: 15px;}
-
     .remind-f-content02-fl-tt02{display: block;color:#fc5d56;margin-top: 5px; }
+    /*12.14*/
+    .remind-f-top-span {height: 15px;width: 4px;}
 
 
     /*实时状态*/
@@ -215,6 +221,7 @@
 
     .status-list-items{text-align: center;display: block;}
     .status-list-items{cursor: pointer;}
+    .status-list-item-img{width: 20%;}
 
 
 

@@ -38,6 +38,14 @@
     .report-title{font-size: 20px;}
     .report-title{font-size: 20px;margin-top: 16px;padding-bottom: 10px;}
 
+
+    /*新列表*/
+    .menu-item-list-container{margin-top: 10px;}
+    .message-list-fl{font-size: 16px;}
+    .message-list-fr{font-size: 13px;}
+    .message-list{padding-top: 20px;padding-bottom: 20px;}
+    .message-list:nth-child(2){margin-top: 1px;}
+    .message-list:nth-child(n+3){margin-top: 6px;}
 }
 @media screen and (max-width:360px){
     /*信息*/
@@ -55,6 +63,15 @@
     .report-list-fr{font-size: 15px;margin-left: 5%;}
     .report-list-fr-t1-{margin-top: 10px;}
     .report-title{font-size: 20px;margin-top: 16px;padding-bottom: 10px;}
+
+
+    /*新列表*/
+    .menu-item-list-container{margin-top: 6px;}
+    .message-list-fl{font-size: 16px;}
+    .message-list-fr{font-size: 13px;}
+    .message-list{padding-top: 20px;padding-bottom: 20px;}
+    .message-list:nth-child(2){margin-top: 1px;}
+    .message-list:nth-child(n+3){margin-top: 6px;}
 
 
 

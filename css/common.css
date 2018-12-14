@@ -27,4 +27,7 @@ html , body{
 
 /*http://192.168.3.8:8082/energy/station-col.html  去掉搜索和空压站标题*/
 
+/*点击事件失效*/
+.classify-02-fl , .status-list-items , .col-container-item , .col-container-item-fl , .col-container-item-fr , .row-menu-list , .menu-item-list-title , .menu-item-list-content-list{cursor: pointer;}
+
 

@@ -53,6 +53,10 @@ $(document).on("click",".col-list-menu-list",function () {
         $(this).find(".col-list-menu-list-img-add").removeClass("hide");
         $(this).siblings().find(".col-list-menu-list-img").removeClass("hide");
         $(this).siblings().find(".col-list-menu-list-img-add").addClass("hide");
+        $(this).find(".row-menu-list-t").addClass("row-menu-list-t-add");
+        $(this).siblings().find(".row-menu-list-t").removeClass("row-menu-list-t-add");
+
+
     }
 });
 $(document).on("click",".menu-item-list-title",function () {

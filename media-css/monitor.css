@@ -44,6 +44,9 @@
     .menu-item-list-content-list-fr{font-size: 18px;}
     .menu-item-list-title-fr-img{width: 9.6px;height:16px;}
     .milclf-img{width: 8px;height:12.8px;}
+
+
+
 }
 @media screen and (max-width:480px) and (min-width:360px){
     /*菜单一*/
@@ -61,11 +64,20 @@
     .menu-item-list-content-list-fl{font-size: 18px;margin-left: 5%;}
     .menu-item-list-content-list-fr{font-size: 16px;margin-right: 3%;}
     .menu-item-list-title-fr-img{width: 9.6px;height:16px;}
-    .milclf-img{width: 8px;height:12.8px;display: none;}
+    .milclf-img{width: 8px;display: none;}
     .menu-item-list-title-fr{margin-right: 3%;}
 
+    /*12.14菜单内容修改*/
+    .menu-item-list-container{margin-top: 0;}
+    .menu-item-list{margin-top: 5px;}
+    .menu-item-list-title{line-height: 45px;height: 45px;}
+    .menu-item-list-title-fl{font-size: 18px;}
+    .menu-item-list-content-list-fl{font-size: 16px;}
+    .menu-item-list-title-fr-img {width: 8px;height: 13.3px;}
+    .menu-item-list-content-list{padding-top: 19px;}
+    .milclf-img{display: inline-block;width: 7px;margin-left: 15px;    vertical-align: middle;}
+    .menu-item-list-content-list-fr{line-height: 100%;}
 
-    /*四个图表*/
 
 
     /*菜单一*/
@@ -78,7 +90,7 @@
 
 
 
-    /*四个图表*/
+    /*四个图表12.13修改*/
     .row-menu-list{width: 55px;height: 55px;position: relative;margin-left: 3.6%;}
     .row-menu-list-t{display: block;position: absolute;width: 75px;left: 0;text-align: left;}
     .row-menu-list-img{    width: 50%;}
@@ -98,6 +110,10 @@
     .row-menu-list-img03{margin-right: 5%;}
     .row-menu-container{height: auto;padding-bottom: 19px;}
 
+
+
+
+
     /*菜单内容*/
     .row-menu-item-container{width: 100%;}
     .menu-item-list-container{width: 100%;margin-left: 0;}
@@ -108,4 +124,30 @@
     .menu-item-list-title-fr-img{width: 9.6px;height:16px;}
     .milclf-img{width: 8px;height:12.8px;display: none;}
     .menu-item-list-title-fr{margin-right: 3%;}
+
+    /*12.14菜单内容修改*/
+    .menu-item-list-container{margin-top: 0;}
+    .menu-item-list{margin-top: 5px;}
+    .menu-item-list-title{line-height: 45px;height: 45px;}
+    .menu-item-list-title-fl{font-size: 18px;}
+    .menu-item-list-content-list-fl{font-size: 16px;}
+    .menu-item-list-title-fr-img {width: 8px;height: 13.3px;}
+    .menu-item-list-content-list{padding-top: 19px;}
+    .milclf-img{display: inline-block;width: 7px;margin-left: 15px;    vertical-align: middle;}
+    .menu-item-list-content-list-fr{line-height: 100%;}
+
+
+
+    /*四个图表12.13修改*/
+    .row-menu-list{width: 55px;height: 55px;position: relative;margin-left: 3.6%;}
+    .row-menu-list-t{display: block;position: absolute;width: 75px;left: 0;text-align: left;}
+    .row-menu-list-img{    width: 50%;}
+    .row-menu-container{padding-bottom: 39px;}
+    .row-menu-list-t{color: white;}
+    .row-menu-list-t-add{color: #ffc700;}
+    .row-menu-list{margin-left: 2%;}
+    .row-menu-list-img {
+        margin-right: 1%;}
+
+
 }
