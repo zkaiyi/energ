@@ -262,9 +262,13 @@ $(function () {
     '</div>' +
     '</div>';
   var SIDEBARBUTTON = '<button type="button" class="c-datepicker-picker__shortcut" data-value="{{day}}" data-time="{{time}}">{{name}}</button>';
+
+
   var SIDEBARTPL = '<div class="c-datepicker-picker__sidebar">' +
     '{{button}}' +
     '</div>';
+
+
   var PICKERFOOTERTPL = '<div class="c-datepicker-picker__footer" style="">' +
     '<button type="button" class="c-datepicker-button c-datepicker-picker__link-btn c-datepicker-button--text c-datepicker-button--mini {{className}}">' +
     '<span>' +
@@ -2177,6 +2181,8 @@ $(function () {
       //   left: offset.left - 190
       // });
         this.pickerObject.$container.addClass("data-add");
+
+        $(".c-datepicker-picker__sidebar").remove();
 
         var need_W = $(window).width();
         console.log(need_W)

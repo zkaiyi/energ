@@ -1,3 +1,4 @@
+// 折现图
 $(function () {
     var dom = document.getElementById("table");
     var myChart = echarts.init(dom);
@@ -48,4 +49,304 @@ $(function () {
     if (option && typeof option === "object") {
         myChart.setOption(option, true);
     }
+})
+
+// 树状菜单
+$(function () {
+    var setting = {
+        view: {
+            showIcon: showIconForTree
+        },
+        data: {
+            simpleData: {
+                enable: true
+            }
+        }
+    };
+
+    var zNodes =[
+        { id:1, pId:0, name:"1#楼", open:true},
+
+        { id:11, pId:1, name:"1#楼1层", open:true},
+        { id:111, pId:11, name:"1#楼1层 101"},
+        { id:112, pId:11, name:"1#楼1层 102"},
+        { id:113, pId:11, name:"1#楼1层 103"},
+        { id:114, pId:11, name:"1#楼1层 104"},
+        { id:115, pId:11, name:"1#楼1层 105"},
+        { id:116, pId:11, name:"1#楼1层 106"},
+        { id:117, pId:11, name:"1#楼1层 107"},
+        { id:118, pId:11, name:"1#楼1层 108"},
+
+        { id:111, pId:11, name:"1#楼1层 101"},
+        { id:112, pId:11, name:"1#楼1层 102"},
+        { id:113, pId:11, name:"1#楼1层 103"},
+        { id:114, pId:11, name:"1#楼1层 104"},
+        { id:115, pId:11, name:"1#楼1层 105"},
+        { id:116, pId:11, name:"1#楼1层 106"},
+        { id:117, pId:11, name:"1#楼1层 107"},
+        { id:118, pId:11, name:"1#楼1层 108"},
+
+
+
+        { id:12, pId:1, name:"1#楼2层", open:true},
+        { id:121, pId:12, name:"1#楼2层 201"},
+        { id:122, pId:12, name:"1#楼2层 202"},
+        { id:123, pId:12, name:"1#楼2层 203"},
+        { id:124, pId:12, name:"1#楼2层 204"},
+        { id:125, pId:12, name:"1#楼2层 205"},
+        { id:126, pId:12, name:"1#楼2层 206"},
+        { id:127, pId:12, name:"1#楼2层 207"},
+        { id:128, pId:12, name:"1#楼2层 208"},
+
+
+
+        { id:13, pId:1, name:"1#楼3层", open:true},
+        { id:131, pId:13, name:"1#楼3层 301"},
+        { id:132, pId:13, name:"1#楼3层 302"},
+        { id:133, pId:13, name:"1#楼3层 303"},
+        { id:134, pId:13, name:"1#楼3层 304"},
+        { id:135, pId:13, name:"1#楼3层 305"},
+        { id:136, pId:13, name:"1#楼3层 306"},
+        { id:137, pId:13, name:"1#楼3层 307"},
+        { id:138, pId:13, name:"1#楼3层 308"},
+
+
+        { id:14, pId:1, name:"1#楼4层", open:true},
+        { id:141, pId:14, name:"1#楼4层 401"},
+        { id:142, pId:14, name:"1#楼4层 402"},
+        { id:143, pId:14, name:"1#楼4层 403"},
+        { id:144, pId:14, name:"1#楼4层 404"},
+        { id:145, pId:14, name:"1#楼4层 405"},
+        { id:146, pId:14, name:"1#楼4层 406"},
+        { id:147, pId:14, name:"1#楼4层 407"},
+        { id:148, pId:14, name:"1#楼4层 408"},
+
+
+        // { id:2, pId:0, name:"父节点2 - 折叠"},
+        // { id:21, pId:2, name:"父节点21 - 展开", open:true},
+        // { id:211, pId:21, name:"叶子节点211"},
+        // { id:212, pId:21, name:"叶子节点212"},
+        // { id:213, pId:21, name:"叶子节点213"},
+        // { id:214, pId:21, name:"叶子节点214"},
+        // { id:22, pId:2, name:"父节点22 - 折叠"},
+        // { id:221, pId:22, name:"叶子节点221"},
+        // { id:222, pId:22, name:"叶子节点222"},
+        // { id:223, pId:22, name:"叶子节点223"},
+        // { id:224, pId:22, name:"叶子节点224"},
+        // { id:23, pId:2, name:"父节点23 - 折叠"},
+        // { id:231, pId:23, name:"叶子节点231"},
+        // { id:232, pId:23, name:"叶子节点232"},
+        // { id:233, pId:23, name:"叶子节点233"},
+        // { id:234, pId:23, name:"叶子节点234"},
+        // { id:3, pId:0, name:"父节点3 - 没有子节点", isParent:true}
+    ];
+
+    function showIconForTree(treeId, treeNode) {
+        return !treeNode.isParent;
+    };
+
+    $(document).ready(function(){
+        $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+    });
+    //-->
+
+})
+
+// 日期选择
+$(function(){
+    var DATAPICKERAPI = {
+        // 默认input显示当前月,自己获取后填充
+        activeMonthRange: function () {
+            return {
+                begin: moment().set({ 'date': 1, 'hour': 0, 'minute': 0, 'second': 0 }).format('YYYY-MM-DD HH:mm:ss'),
+                end: moment().set({ 'hour': 23, 'minute': 59, 'second': 59 }).format('YYYY-MM-DD HH:mm:ss')
+            }
+        },
+        shortcutMonth: function () {
+            // 当月
+            var nowDay = moment().get('date');
+            var prevMonthFirstDay = moment().subtract(1, 'months').set({ 'date': 1 });
+            var prevMonthDay = moment().diff(prevMonthFirstDay, 'days');
+            return {
+                now: '-' + nowDay + ',0',
+                prev: '-' + prevMonthDay + ',-' + nowDay
+            }
+        },
+        // 注意为函数：快捷选项option:只能同一个月份内的
+        rangeMonthShortcutOption1: function () {
+            var result = DATAPICKERAPI.shortcutMonth();
+            return [{
+                name: '昨天',
+                day: '-1,-1',
+                time: '00:00:00,23:59:59'
+            }, {
+                name: '这一月',
+                day: result.now,
+                time: '00:00:00,'
+            }, {
+                name: '上一月',
+                day: result.prev,
+                time: '00:00:00,23:59:59'
+            }];
+        },
+        // 快捷选项option
+        rangeShortcutOption1: [{
+            name: '最近一周',
+            day: '-7,0'
+        }, {
+            name: '最近一个月',
+            day: '-30,0'
+        }, {
+            name: '最近三个月',
+            day: '-90, 0'
+        }],
+        singleShortcutOptions1: [{
+            name: '今天',
+            day: '0'
+        }, {
+            name: '昨天',
+            day: '-1',
+            time: '00:00:00'
+        }, {
+            name: '一周前',
+            day: '-7'
+        }]
+    };
+    //十分秒年月日单个
+    $('.J-datepicker').datePicker({
+        hasShortcut:true,
+        min:'2018-01-01 04:00:00',
+        max:'2019-04-29 20:59:59',
+        shortcutOptions:[{
+            name: '今天',
+            day: '0'
+        }, {
+            name: '昨天',
+            day: '-1',
+            time: '00:00:00'
+        }, {
+            name: '一周前',
+            day: '-7'
+        }],
+        hide:function(){
+            console.info(this)
+        }
+    });
+
+    //年月日单个
+    $('.J-datepicker-day').datePicker({
+        hasShortcut: true,
+        format:'YYYY-MM-DD',
+        shortcutOptions: [{
+            name: '今天',
+            day: '0'
+        }, {
+            name: '昨天',
+            day: '-1'
+        }, {
+            name: '一周前',
+            day: '-7'
+        }]
+    });
+
+    //年月日范围
+    $('.J-datepicker-range-day').datePicker({
+        hasShortcut: true,
+        format: 'YYYY-MM-DD',
+        isRange: true,
+        shortcutOptions: DATAPICKERAPI.rangeShortcutOption1
+    });
+
+    //十分年月日单个
+    $('.J-datepickerTime-single').datePicker({
+        format: 'YYYY-MM-DD HH:mm'
+    });
+
+    //十分年月日范围
+    $('.J-datepickerTime-range').datePicker({
+        format: 'YYYY-MM-DD HH:mm',
+        isRange: true
+    });
+
+    //十分秒年月日范围，包含最大最小值
+    $('.J-datepicker-range').datePicker({
+        hasShortcut: true,
+        min: '2018-01-01 06:00:00',
+        max: '2019-04-29 20:59:59',
+        isRange: true,
+        shortcutOptions: [{
+            name: '昨天',
+            day: '-1,-1',
+            time: '00:00:00,23:59:59'
+        },{
+            name: '最近一周',
+            day: '-7,0',
+            time:'00:00:00,'
+        }, {
+            name: '最近一个月',
+            day: '-30,0',
+            time: '00:00:00,'
+        }, {
+            name: '最近三个月',
+            day: '-90, 0',
+            time: '00:00:00,'
+        }]
+    });
+    //十分秒年月日范围，限制只能选择同一月，比如2018-10-01到2018-10-30
+    $('.J-datepicker-range-betweenMonth').datePicker({
+        isRange: true,
+        between:'month',
+        hasShortcut: true,
+        shortcutOptions: DATAPICKERAPI.rangeMonthShortcutOption1()
+    });
+
+    //十分秒年月日范围，限制开始结束相隔天数小于30天
+    $('.J-datepicker-range-between30').datePicker({
+        isRange: true,
+        between: 30
+    });
+
+    //年月单个
+    $('.J-yearMonthPicker-single').datePicker({
+        format: 'YYYY-MM',
+        min: '2018-01',
+        max: '2019-04'
+    });
+
+    //选择年
+    $('.J-yearPicker-single').datePicker({
+        format: 'YYYY',
+        min: '2018',
+        max: '2020'
+    });
+
+
+});
+
+// 日常
+$(function () {
+
+
+    $(document).on("click",".info-choose01-title",function () {
+        if($(this).siblings().hasClass("hide")){
+            $(this).siblings().slideDown();
+            $(this).siblings().removeClass("hide");
+        }else {
+            $(this).siblings().slideUp();
+            $(this).siblings().addClass("hide");
+        }
+    });
+    $(document).on("click",".info-choose01-t-list",function () {
+        if($(this).hasClass("info-choose01-t-list-a")){
+
+        }else {
+            $(this).addClass("info-choose01-t-list-a").siblings().removeClass("info-choose01-t-list-a");
+            $(".info-choose01-title").siblings().slideUp();
+            $(".info-choose01-title").siblings().addClass("hide");
+
+        }
+    });
+
+
+
 })

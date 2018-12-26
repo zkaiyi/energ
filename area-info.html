@@ -6,8 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>区域统计</title>
-    <link rel="stylesheet" href="css/zTreeStyle.css" />
-
+    <link rel="stylesheet" href="css/zTreeStyle/zTreeStyle.css" />
     <link rel="stylesheet" href="css/datepicker.css" />
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/col.css" />
@@ -17,6 +16,7 @@
     <link rel="stylesheet" href="media-css/common.css" />
     <link rel="stylesheet" href="media-css/col.css" />
     <link rel="stylesheet" href="media-css/info.css" />
+    <link rel="stylesheet" href="media-css/area-info.css" />
     <!--css3ie8渲染-->
     <script src="js/respond.min.js"></script>
     <script type="text/javascript" src="[JS library]"></script>
@@ -65,12 +65,72 @@
     <div class="area-info-container clearfix">
 
         <div class="area-info-fl fl">
-
+            <div class="area-info-fl-contaioner">
+                <div class="area-info-fl-title">泰康申园</div>
+                <div class=" zTreeDemoBackground">
+                    <div class="need-waibu left">
+                        <ul id="treeDemo" class="ztree"></ul>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
         <div class="area-info-fr fr">
-            <div class="area-info-fr-01"><span class="area-info-fr-01-span">泰康申园-耗电量</span></div>
+
+            <div class="info-banner clearfix">
+                <div class="info-banner-fl fl">泰康申园-耗电量</div>
+                <div class="info-banner-fr fr clearfix">
+
+                    <div class="info-choose01 fl clearfix">
+                        <div class="info-choose01-title">选择类型<img class="info-choose01-title-img fr" src="img/info/doen.png" /></div>
+                        <div class="info-choose01-t hide">
+                            <div class="info-choose01-t-list">水</div>
+                            <div class="info-choose01-t-list info-choose01-t-list-a">电</div>
+                            <div class="info-choose01-t-list">气</div>
+                        </div>
+                    </div>
+
+                    <div class="info-choose01- hide fl clearfix">
+                        <div class="info-choose01-title">选择类型<img class="info-choose01-title-img fr" src="img/info/doen.png" /></div>
+                        <div class="info-choose01-t hide">
+                            <div class="info-choose01-t-list">水</div>
+                            <div class="info-choose01-t-list info-choose01-t-list-a">电</div>
+                            <div class="info-choose01-t-list">气</div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="info-choose02 fl">
+                        <div class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
+                            <!--<i class="c-datepicker-range__icon kxiconfont icon-clock"></i>-->
+                            <img class="info-choose04-img" src="img/info/doen.png" />
+                            <input type="text" autocomplete="off" name="" placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
+
+                        </div>
+                    </div>
+                    <div class="info-choose03 info-choose03-01 fl">至</div>
+                    <div class="info-choose03  info-choose03-02 hide fl">——</div>
+                    <div class="info-choose02 fl">
+                        <div class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
+                            <!--<i class="c-datepicker-range__icon kxiconfont icon-clock"></i>-->
+                            <img class="info-choose04-img" src="img/info/doen.png" />
+                            <input type="text" autocomplete="off" name="" placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+
+
             <div class="area-content">
                 <div class="area-content-top">
                     <div class="area-content-top-container">
@@ -87,11 +147,43 @@
                         <div id="table"></div>
                     </div>
                 </div>
-                <div class="area-content-mid"></div>
+                <div class="area-content-mid clearfix">
+                    <div class="area-content-mid-fl fl">水量</div>
+                    <div class="area-content-mid-fr fr">2218900m²</div>
+                </div>
             </div>
+
+
             <div class="area-content02">
-                <div class="area-content02-title"></div>
-                <div class="area-content02-list"></div>
+
+                <div class="area-content02-title clearfix">
+                    <div class="area-content02-title-fl fl">耗电成本</div>
+                    <div class="area-content02-title-fr fr clearfix"><div class="area-content02-title-fr-span fl">12.71</div>m²</div>
+                </div>
+
+
+
+                <div class="area-content02-list">
+
+                    <div class="area-content02-list-li clearfix">
+                        <div class="area-content02-list-li-fl fl">1</div>
+                        <div class="area-content02-list-li-fr fr">2218900m²</div>
+                    </div>
+
+                    <div class="area-content02-list-li clearfix">
+                        <div class="area-content02-list-li-fl fl">1</div>
+                        <div class="area-content02-list-li-fr fr">2218900m²</div>
+                    </div>
+
+
+                    <div class="area-content02-list-li clearfix">
+                        <div class="area-content02-list-li-fl fl">1</div>
+                        <div class="area-content02-list-li-fr fr">2218900m²</div>
+                    </div>
+
+
+
+                </div>
             </div>
 
         </div>
@@ -103,8 +195,8 @@
 
     <div class="footer-container">版权所有：浙江宏基能源环保科技有限公司</div>
 </div>
-
 <script src="js/jquery.min.js"></script>
+
 
 <script src="js/echarts.js"></script>
 <script src="js/moment.min.js"></script>
@@ -113,7 +205,8 @@
 <script src="js/area-info.js"></script>
 <script src="js2/url.js"></script>
 <script src="js2/search.js"></script>
-<script type="text/javascript" src="js/jquery.min-1.0.js"></script>
+<!--<script type="text/javascript" src="js/jquery.min-1.0.js"></script>-->
+<!--<script src="js/jquery-1.4.4.min.js"></script>-->
 <script src="js/jquery.corner.js"></script>
 <script src="js/station.js"></script>
 <script>
@@ -124,8 +217,9 @@
     $(".info-02-mode-fr-list").corner("5px");
     $(".info-02-mode-fr-list-fl-img").corner("5px");
     $(".mode03-fl").corner("5px");
+    $(".area-info-fl-contaioner").corner("5px");
+    $(".area-info-fl-title").corner("5px");
 </script>
-<script>
-</script>
+
 </body>
 </html>

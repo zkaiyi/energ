@@ -1,0 +1,149 @@
+@media screen and (max-width:1366px) and (min-width:1200px){
+
+}
+
+@media screen and (max-width:1200px) and (min-width:992px){
+
+    /*大框子*/
+    .area-info-container{width: 100%;}
+    .area-info-fl{width: 22%;}
+    .area-info-fr{width: 77%;}
+
+    /*树状*/
+    .area-info-fl-contaioner{width: 100%;}
+    .area-info-fl-title{padding-left: 0;text-align: center;}
+    .area-info-fl-contaioner{border: none;}
+
+}
+
+@media screen and (max-width:992px) and (min-width:768px){
+
+    /*大框子*/
+    .area-info-container{width: 100%;}
+    .area-info-fl{width: 22%;}
+    .area-info-fr{width: 77%;}
+
+    /*树状*/
+    .area-info-fl-contaioner{width: 100%;}
+    .area-info-fl-title{padding-left: 0;text-align: center;}
+    .area-info-fl-contaioner{border: none;}
+
+    /*右边标题*/
+    .info-banner-fl{font-size: 14px;padding-right: 5px;}
+    .info-choose01-, .info-choose01{left: -150px;}
+
+
+
+
+}
+@media screen and (max-width:768px) and (min-width:620px){
+
+    /*大框子*/
+    .area-info-container{width: 100%;}
+    .area-info-fl{display: none;}
+    .area-info-fr{width: 100%;}
+
+    /*树状*/
+
+    .area-info-fl-contaioner{width: 100%;}
+    .area-info-fl-title{padding-left: 0;text-align: center;}
+    .area-info-fl-contaioner{border: none;}
+
+    /*右边标题*/
+    .info-banner-fl{font-size: 14px;padding-right: 5px;}
+    .info-choose01-, .info-choose01{left: -150px;}
+
+
+
+
+}
+
+
+
+@media screen and (max-width:620px) and (min-width:480px){
+
+    /*大框子*/
+    .area-info-container{width: 100%;}
+    .area-info-fl{display: none;}
+    .area-info-fr{width: 100%;}
+    .type-need:nth-child(1) a{color: #c4c9d0;}
+    .type-need:nth-child(1){background-image: none;background-color:#f3f3f3; }
+    .type-need:nth-child(2){    background-image: url(../img/info/banner.jpg);background-size: 100% 100%;background-repeat: no-repeat; }
+    .type-need:nth-child(2) a{   color: white;}
+
+
+    /*模块*/
+    .area-content-top-container-t1-fr-fl{font-size: 14px;}
+    .span-n-01{font-size: 17px;}
+    .area-content-mid-fl{margin-left: 3%; }
+    .area-content-mid-fr{margin-right: 3%;}
+    .area-content02-title-fl{margin-left: 3%; }
+    .area-content02-title-fr{margin-right: 3%;}
+    .area-content02-list-li-fl{margin-left: 3%; }
+    .area-content02-list-li-fr{margin-right: 3%;}
+
+
+
+
+
+
+}
+@media screen and (max-width:480px) and (min-width:360px){
+
+
+    /*大框子*/
+    .area-info-container{width: 100%;}
+    .area-info-fl{display: none;}
+    .area-info-fr{width: 100%;}
+    .type-need:nth-child(1) a{color: #c4c9d0;}
+    .type-need:nth-child(1){background-image: none;background-color:#f3f3f3; }
+    .type-need:nth-child(2){    background-image: url(../img/info/banner.jpg);background-size: 100% 100%;background-repeat: no-repeat; }
+    .type-need:nth-child(2) a{   color: white;}
+
+
+    /*模块*/
+    .area-content-top-container-t1-fr-fl{font-size: 14px;}
+    .span-n-01{font-size: 17px;}
+    .area-content-mid-fl{margin-left: 3%; }
+    .area-content-mid-fr{margin-right: 3%;}
+    .area-content02-title-fl{margin-left: 3%; }
+    .area-content02-title-fr{margin-right: 3%;}
+    .area-content02-list-li-fl{margin-left: 3%; }
+    .area-content02-list-li-fr{margin-right: 3%;}
+
+
+
+
+
+
+
+
+
+}
+@media screen and (max-width:360px){
+    /*大框子*/
+    .area-info-container{width: 100%;}
+    .area-info-fl{display: none;}
+    .area-info-fr{width: 100%;}
+    .type-need:nth-child(1) a{color: #c4c9d0;}
+    .type-need:nth-child(1){background-image: none;background-color:#f3f3f3; }
+    .type-need:nth-child(2){    background-image: url(../img/info/banner.jpg);background-size: 100% 100%;background-repeat: no-repeat; }
+    .type-need:nth-child(2) a{   color: white;}
+
+
+    /*模块*/
+    .area-content02 , .area-content{width: 95%;}
+    .area-content-top-container-t1-fl{font-size: 12px;width: 100%;}
+    .area-content-top-container-t1-fr-fl{font-size: 12px;}
+    .area-content-top-container-t1-fr-fl:nth-child(2){margin-left: 15px;}
+    .span-n-01{font-size: 13px;}
+    .area-content-mid-fl{margin-left: 3%; }
+    .area-content-mid-fr{margin-right: 3%;}
+    .area-content02-title-fl{margin-left: 3%; }
+    .area-content02-title-fr{margin-right: 3%;}
+    .area-content02-list-li-fl{margin-left: 3%; }
+    .area-content02-list-li-fr{margin-right: 3%;}
+
+
+
+}
