@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/login.css" />
+
+    <link rel="stylesheet" href="media-css/login.css" />
+    <title>登录</title>
+</head>
+<body>
+<div class="contaienr">
+    <div class="login-center">
+
+        <div class="center">
+            <div class="title">能源管理中心</div>
+            
+            <div class="table">
+
+
+                <div class="table-list clearfix">
+                    <div class="table-list-fl fl">用户名：</div>
+                    <div class="table-list-fr fl clearfix">
+                        <img class="table-list-fr-img" src="img/login/user.png" /><input id="username" class="table-list-fr-int" type="text" placeholder="" />
+                    </div>
+                </div>
+
+                <div class="table-list clearfix passc">
+                    <div class="table-list-fl fl">密码：</div>
+                    <div class="table-list-fr fl clearfix">
+                        <img class="table-list-fr-img" src="img/login/pass.png" /><input id="pass" class="table-list-fr-int" type="password" placeholder="" />
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="sub clearfix">
+                <div class="sub-fl fl" onclick="sub()">登录</div>
+                <div class="sub-fl sub-fl-no fr">重置</div>
+            </div>
+
+
+            <div class="footer">
+                版权所有：能源管理平台   建议采用IE7.0以上版本<br>
+                技术支持：宁波市卓信信息技术有限公司    电话：0574-87266656
+            </div>
+        </div>
+
+        <div class="ab-bg"></div>
+    </div>
+</div>
+<div class="moeli-container">
+    <div class="banner">能源管理中心</div>
+
+    <div class="mobel-table">
+        <div class="mobel-table-list ">
+            <img class="mobel-table-list-img" src="img/login/user.png" /><input id="muser" class="mobel-table-list-int" type="text" placeholder="请输入您的用户名">
+        </div>
+        <div class="mobel-table-list mobel-table-list02">
+            <img class="mobel-table-list-img" src="img/login/pass.png" /><input id="mpass" class="mobel-table-list-int" type="password" placeholder="请输入您的密码">
+        </div>
+
+    </div>
+
+    <div class="mobel-sub" onclick="sub02()">确定</div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.corner.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>

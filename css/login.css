@@ -1,0 +1,42 @@
+body{height: 100%;}
+.contaienr{width: 100%;height: 100%;background-image:url("../img/login/banner.jpg");background-size: 100% 100%; }
+
+.login-center{position: relative;}
+.center{width: 769px;margin: auto;background-color: white;height: 451px;position: relative;z-index: 5;}
+.title{color: #0063dd;font-size: 36px;font-weight: bold;text-align: center;line-height: 100%;padding-top: 41px;}
+
+.table{width: 390px;margin: auto;margin-top: 46px;}
+.table-list{width: 100%;}
+.table-list-fl{width:65px;text-align: right;font-size: 16px;color: #666666; line-height: 40px;}
+.table-list-fr{width:323px;border: 1px solid #c8c8c8;height: 40px;line-height: 40px; }
+.table-list-fr-img{width: 25px;vertical-align: middle;margin-left: 10px;}
+.table-list-fr-int{margin-left: 20px;width:246px;height: 38px;line-height: 38px;border: none;outline: none;    font-size: 16px;
+    color: #666666;
+    box-shadow: 0 0 0px 1000px #fff inset;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+    -moz-box-shadow: 0 0 0px 1000px #fff inset;
+    -ms-box-shadow: 0 0 0px 1000px #fff inset;
+    -o-box-shadow: 0 0 0px 1000px #fff inset;
+}
+.passc{margin-top: 19px;}
+
+.sub{width: 255px;margin: auto;margin-top: 27px;}
+.sub-fl{width: 122px;height: 40px;text-align: center;line-height: 40px;color: white;background-color: #0280f4;font-size: 18px;}
+.sub-fl-no{color: #666666;background-color: #e6e6e6;}
+
+.footer{text-align: center;font-size: 14px;line-height: 26px;color: #454545;margin-top: 27px;}
+
+.ab-bg{width:815px;height:497px;background: rgba(255,255,255,0.8);position: absolute;top: 0;left: 0;z-index: 2;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C8ffffff,endColorstr=#C8ffffff);
+
+}
+
+
+/*手机*/
+.banner{width: 100%;height: 397px;background-image: url("../img/login/banner-02.jpg");background-size: 100% 100%;color: white;line-height: 397px;text-align: center;font-size: 60px;}
+.mobel-table{width: 90%;margin: auto;margin-top: 50px;}
+.mobel-table-list{width: 100%;border: 1px solid #c8c8c8;height: 60px;line-height: 60px;}
+.mobel-table-list-img{vertical-align: middle;width: 5%;margin-left: 5%;}
+.mobel-table-list-int{width: 80%;margin-left: 6%;height: 58px;line-height: 58px;outline: none;border: none;color: #afafaf;font-size: 16px;}
+.mobel-table-list02{margin-top: 20px;}
+.mobel-sub{width: 90%;margin: auto;background-color:#0280f4;text-align: center;color: white;font-size: 16px;line-height: 60px;margin-top: 110px; }

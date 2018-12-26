@@ -1,0 +1,40 @@
+@media screen and (max-width:820px) and (min-width:768px){
+    .center{width: 560px;height: 380px;}
+
+}
+@media screen and (max-width:768px) and (min-width:620px){
+
+    .center{width: 560px;height: 380px;}
+}
+
+
+
+@media screen and (max-width:620px) and (min-width:480px){
+    .contaienr{display: none;}
+    .moeli-container{display: block}
+
+    .banner{height:251px;line-height: 251px;font-size: 45px; }
+
+
+}
+@media screen and (max-width:480px) and (min-width:360px){
+    .contaienr{display: none;}
+    .moeli-container{display: block}
+
+    .banner{height:200px;line-height: 200px;font-size: 28px; }
+    .mobel-table-list{height: 45px;line-height: 45px;}
+    .mobel-table-list-int{height: 43px;line-height: 43px;}
+    .mobel-sub{height: 45px;line-height: 45px;}
+
+}
+@media screen and (max-width:360px){
+    .contaienr{display: none;}
+    .moeli-container{display: block}
+
+    .banner{height:181px;line-height: 181px;font-size: 24px; }
+    .mobel-table-list{height: 45px;line-height: 45px;}
+    .mobel-table-list-int{height: 43px;line-height: 43px;}
+    .mobel-sub{height: 45px;line-height: 45px;}
+
+
+}
