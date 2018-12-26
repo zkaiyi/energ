@@ -1,4 +1,4 @@
-body{height: 100%;}
+body{height: 100%;background-color: white;}
 .contaienr{width: 100%;height: 100%;background-image:url("../img/login/banner.jpg");background-size: 100% 100%; }
 
 .login-center{position: relative;}
@@ -21,7 +21,7 @@ body{height: 100%;}
 .passc{margin-top: 19px;}
 
 .sub{width: 255px;margin: auto;margin-top: 27px;}
-.sub-fl{width: 122px;height: 40px;text-align: center;line-height: 40px;color: white;background-color: #0280f4;font-size: 18px;}
+.sub-fl{width: 122px;height: 40px;text-align: center;line-height: 40px;color: white;background-color: #0280f4;font-size: 18px;cursor: pointer;}
 .sub-fl-no{color: #666666;background-color: #e6e6e6;}
 
 .footer{text-align: center;font-size: 14px;line-height: 26px;color: #454545;margin-top: 27px;}
@@ -39,4 +39,4 @@ body{height: 100%;}
 .mobel-table-list-img{vertical-align: middle;width: 5%;margin-left: 5%;}
 .mobel-table-list-int{width: 80%;margin-left: 6%;height: 58px;line-height: 58px;outline: none;border: none;color: #afafaf;font-size: 16px;}
 .mobel-table-list02{margin-top: 20px;}
-.mobel-sub{width: 90%;margin: auto;background-color:#0280f4;text-align: center;color: white;font-size: 16px;line-height: 60px;margin-top: 110px; }
+.mobel-sub{width: 90%;margin: auto;background-color:#0280f4;text-align: center;color: white;font-size: 16px;line-height: 60px;margin-top: 110px; cursor: pointer;}
