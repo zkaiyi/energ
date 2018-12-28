@@ -158,6 +158,13 @@
     .status-list-item-img{width: 20%;}
 
 
+    /*12.28修改*/
+    .classify-container{padding-top: 10px;}
+    .classify-02{margin-top: 18px}
+    .classify-02-fl-img{padding-top: 5%;}
+    .classify-02-fl-t{margin-top: 4px;}
+
+
 
 
 }
@@ -222,6 +229,13 @@
     .status-list-items{text-align: center;display: block;}
     .status-list-items{cursor: pointer;}
     .status-list-item-img{width: 20%;}
+
+    /*12.28修改*/
+    .classify-container{padding-top: 10px;}
+    .classify-02{margin-top: 18px}
+    .classify-02-fl-img{padding-top: 5%;}
+    .classify-02-fl-t{margin-top: 4px;}
+
 
 
 
