@@ -51,87 +51,87 @@ $(function () {
     }
 })
 
-// 树状菜单----------json
-$(function () {
-    var setting = {
-        view: {
-            showIcon: showIconForTree
-        },
-        data: {
-            simpleData: {
-                enable: true
-            }
-        }
-    };
-    var zNodes =[
-        { id:1, pId:0, name:"1#楼", open:true},
-
-        { id:11, pId:1, name:"1#楼1层", open:true},
-        { id:111, pId:11, name:"1#楼1层 101"},
-        { id:112, pId:11, name:"1#楼1层 102"},
-        { id:113, pId:11, name:"1#楼1层 103"},
-        { id:114, pId:11, name:"1#楼1层 104"},
-        { id:115, pId:11, name:"1#楼1层 105"},
-        { id:116, pId:11, name:"1#楼1层 106"},
-        { id:117, pId:11, name:"1#楼1层 107"},
-        { id:118, pId:11, name:"1#楼1层 108"},
-
-        { id:111, pId:11, name:"1#楼1层 101"},
-        { id:112, pId:11, name:"1#楼1层 102"},
-        { id:113, pId:11, name:"1#楼1层 103"},
-        { id:114, pId:11, name:"1#楼1层 104"},
-        { id:115, pId:11, name:"1#楼1层 105"},
-        { id:116, pId:11, name:"1#楼1层 106"},
-        { id:117, pId:11, name:"1#楼1层 107"},
-        { id:118, pId:11, name:"1#楼1层 108"},
-
-
-
-        { id:12, pId:1, name:"1#楼2层", open:true},
-        { id:121, pId:12, name:"1#楼2层 201"},
-        { id:122, pId:12, name:"1#楼2层 202"},
-        { id:123, pId:12, name:"1#楼2层 203"},
-        { id:124, pId:12, name:"1#楼2层 204"},
-        { id:125, pId:12, name:"1#楼2层 205"},
-        { id:126, pId:12, name:"1#楼2层 206"},
-        { id:127, pId:12, name:"1#楼2层 207"},
-        { id:128, pId:12, name:"1#楼2层 208"},
-
-
-
-        { id:13, pId:1, name:"1#楼3层", open:true},
-        { id:131, pId:13, name:"1#楼3层 301"},
-        { id:132, pId:13, name:"1#楼3层 302"},
-        { id:133, pId:13, name:"1#楼3层 303"},
-        { id:134, pId:13, name:"1#楼3层 304"},
-        { id:135, pId:13, name:"1#楼3层 305"},
-        { id:136, pId:13, name:"1#楼3层 306"},
-        { id:137, pId:13, name:"1#楼3层 307"},
-        { id:138, pId:13, name:"1#楼3层 308"},
-
-
-        { id:14, pId:1, name:"1#楼4层", open:true},
-        { id:141, pId:14, name:"1#楼4层 401"},
-        { id:142, pId:14, name:"1#楼4层 402"},
-        { id:143, pId:14, name:"1#楼4层 403"},
-        { id:144, pId:14, name:"1#楼4层 404"},
-        { id:145, pId:14, name:"1#楼4层 405"},
-        { id:146, pId:14, name:"1#楼4层 406"},
-        { id:147, pId:14, name:"1#楼4层 407"},
-        { id:148, pId:14, name:"1#楼4层 408"},
-
-
-    ];
-
-    function showIconForTree(treeId, treeNode) {
-        return !treeNode.isParent;
-    };
-
-    $(document).ready(function(){
-        $.fn.zTree.init($("#treeDemo"), setting, zNodes);
-    });
-
-})
+// // 树状菜单----------json
+// $(function () {
+//     var setting = {
+//         view: {
+//             showIcon: showIconForTree
+//         },
+//         data: {
+//             simpleData: {
+//                 enable: true
+//             }
+//         }
+//     };
+//     var zNodes =[
+//         { id:1, pId:0, name:"1#楼", open:true},
+//
+//         { id:11, pId:1, name:"1#楼1层", open:true},
+//         { id:111, pId:11, name:"1#楼1层 101"},
+//         { id:112, pId:11, name:"1#楼1层 102"},
+//         { id:113, pId:11, name:"1#楼1层 103"},
+//         { id:114, pId:11, name:"1#楼1层 104"},
+//         { id:115, pId:11, name:"1#楼1层 105"},
+//         { id:116, pId:11, name:"1#楼1层 106"},
+//         { id:117, pId:11, name:"1#楼1层 107"},
+//         { id:118, pId:11, name:"1#楼1层 108"},
+//
+//         { id:111, pId:11, name:"1#楼1层 101"},
+//         { id:112, pId:11, name:"1#楼1层 102"},
+//         { id:113, pId:11, name:"1#楼1层 103"},
+//         { id:114, pId:11, name:"1#楼1层 104"},
+//         { id:115, pId:11, name:"1#楼1层 105"},
+//         { id:116, pId:11, name:"1#楼1层 106"},
+//         { id:117, pId:11, name:"1#楼1层 107"},
+//         { id:118, pId:11, name:"1#楼1层 108"},
+//
+//
+//
+//         { id:12, pId:1, name:"1#楼2层", open:true},
+//         { id:121, pId:12, name:"1#楼2层 201"},
+//         { id:122, pId:12, name:"1#楼2层 202"},
+//         { id:123, pId:12, name:"1#楼2层 203"},
+//         { id:124, pId:12, name:"1#楼2层 204"},
+//         { id:125, pId:12, name:"1#楼2层 205"},
+//         { id:126, pId:12, name:"1#楼2层 206"},
+//         { id:127, pId:12, name:"1#楼2层 207"},
+//         { id:128, pId:12, name:"1#楼2层 208"},
+//
+//
+//
+//         { id:13, pId:1, name:"1#楼3层", open:true},
+//         { id:131, pId:13, name:"1#楼3层 301"},
+//         { id:132, pId:13, name:"1#楼3层 302"},
+//         { id:133, pId:13, name:"1#楼3层 303"},
+//         { id:134, pId:13, name:"1#楼3层 304"},
+//         { id:135, pId:13, name:"1#楼3层 305"},
+//         { id:136, pId:13, name:"1#楼3层 306"},
+//         { id:137, pId:13, name:"1#楼3层 307"},
+//         { id:138, pId:13, name:"1#楼3层 308"},
+//
+//
+//         { id:14, pId:1, name:"1#楼4层", open:true},
+//         { id:141, pId:14, name:"1#楼4层 401"},
+//         { id:142, pId:14, name:"1#楼4层 402"},
+//         { id:143, pId:14, name:"1#楼4层 403"},
+//         { id:144, pId:14, name:"1#楼4层 404"},
+//         { id:145, pId:14, name:"1#楼4层 405"},
+//         { id:146, pId:14, name:"1#楼4层 406"},
+//         { id:147, pId:14, name:"1#楼4层 407"},
+//         { id:148, pId:14, name:"1#楼4层 408"},
+//
+//
+//     ];
+//
+//     function showIconForTree(treeId, treeNode) {
+//         return !treeNode.isParent;
+//     };
+//
+//     $(document).ready(function(){
+//         $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+//     });
+//
+// })
 
 // 日期选择
 $(function(){
