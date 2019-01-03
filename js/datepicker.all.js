@@ -636,6 +636,26 @@ $(function () {
         // picker里的日期input
         val = input.set({ 'year': year, 'month': month, 'date': activeNum }).format(this.picker.config.format.split(' ')[0]);
         this.picker.$container.find('.c-datePicker__input-day').val(val);
+
+        console.log(this.picker.$container.index());
+        if(this.picker.$container.index() == "12"){
+          sessionStorage.setItem("STime",val)
+        }
+          if(this.picker.$container.index() == "13"){
+              sessionStorage.setItem("ETime",val)
+          }
+
+          var ID = sessionStorage.getItem("ID");
+          var Type = sessionStorage.getItem("Type");
+          var STime = sessionStorage.getItem("STime");
+          var ETime = sessionStorage.getItem("ETime");
+          getenergy(ID,Type,STime,ETime);
+          getchengben(ID,Type,STime,ETime);
+
+
+
+
+
         // 整个表单input update
         var inputVal = inputDay.set({ 'year': year, 'month': month, 'date': activeNum }).format(this.picker.config.format);
         this.picker.$input.val(inputVal);
@@ -2185,7 +2205,6 @@ $(function () {
         $(".c-datepicker-picker__sidebar").remove();
 
         var need_W = $(window).width();
-        console.log(need_W)
         if(need_W <= 620){
             this.pickerObject.$container.css({
                 top: offset.top + height,

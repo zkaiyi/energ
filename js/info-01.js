@@ -1,138 +1,3 @@
-// // 折现图
-// $(function () {
-//     var dom = document.getElementById("table");
-//     var myChart = echarts.init(dom);
-//     var app = {};
-//     option = null;
-//
-//     data = [["2000-06-05",116],["2000-06-06",129],["2000-06-07",135],["2000-06-08",86],["2000-06-09",73],["2000-06-10",85],["2000-06-11",73],["2000-06-12",68],["2000-06-13",92],["2000-06-14",130],["2000-06-15",245],["2000-06-16",139],["2000-06-17",115],["2000-06-18",111],["2000-06-19",309],["2000-06-20",206],["2000-06-21",137],["2000-06-22",128],["2000-06-23",85],["2000-06-24",94],["2000-06-25",71],["2000-06-26",106],["2000-06-27",84],["2000-06-28",93],["2000-06-29",85],["2000-06-30",73],["2000-07-01",83],["2000-07-02",125],["2000-07-03",107],["2000-07-04",82],["2000-07-05",44],["2000-07-06",72],["2000-07-07",106],["2000-07-08",107],["2000-07-09",66],["2000-07-10",91],["2000-07-11",92],["2000-07-12",113],["2000-07-13",107],["2000-07-14",131],["2000-07-15",111],["2000-07-16",64],["2000-07-17",69],["2000-07-18",88],["2000-07-19",77],["2000-07-20",83],["2000-07-21",111],["2000-07-22",57],["2000-07-23",55],["2000-07-24",60]];
-//
-//     var dateList = data.map(function (item) {
-//         return item[0];
-//     });
-//     var valueList = data.map(function (item) {
-//         return item[1];
-//     });
-//
-//     option = {
-//
-//         // Make gradient line here
-//         visualMap: [{
-//             show: false,
-//             type: 'continuous',
-//             seriesIndex: 0,
-//             min: 0,
-//             max: 400
-//         }],
-//
-//
-//         title: [{
-//             left: 'center',
-//
-//         }],
-//         tooltip: {
-//             trigger: 'axis'
-//         },
-//         xAxis: [{
-//             data: dateList
-//         }],
-//         yAxis: [{
-//             splitLine: {show: false}
-//         }],
-//
-//         series: [{
-//             type: 'line',
-//             showSymbol: false,
-//             data: valueList
-//         }]
-//     };;
-//     if (option && typeof option === "object") {
-//         myChart.setOption(option, true);
-//     }
-// })
-
-// // 树状菜单----------json
-// $(function () {
-//     var setting = {
-//         view: {
-//             showIcon: showIconForTree
-//         },
-//         data: {
-//             simpleData: {
-//                 enable: true
-//             }
-//         }
-//     };
-//     var zNodes =[
-//         { id:1, pId:0, name:"1#楼", open:true},
-//
-//         { id:11, pId:1, name:"1#楼1层", open:true},
-//         { id:111, pId:11, name:"1#楼1层 101"},
-//         { id:112, pId:11, name:"1#楼1层 102"},
-//         { id:113, pId:11, name:"1#楼1层 103"},
-//         { id:114, pId:11, name:"1#楼1层 104"},
-//         { id:115, pId:11, name:"1#楼1层 105"},
-//         { id:116, pId:11, name:"1#楼1层 106"},
-//         { id:117, pId:11, name:"1#楼1层 107"},
-//         { id:118, pId:11, name:"1#楼1层 108"},
-//
-//         { id:111, pId:11, name:"1#楼1层 101"},
-//         { id:112, pId:11, name:"1#楼1层 102"},
-//         { id:113, pId:11, name:"1#楼1层 103"},
-//         { id:114, pId:11, name:"1#楼1层 104"},
-//         { id:115, pId:11, name:"1#楼1层 105"},
-//         { id:116, pId:11, name:"1#楼1层 106"},
-//         { id:117, pId:11, name:"1#楼1层 107"},
-//         { id:118, pId:11, name:"1#楼1层 108"},
-//
-//
-//
-//         { id:12, pId:1, name:"1#楼2层", open:true},
-//         { id:121, pId:12, name:"1#楼2层 201"},
-//         { id:122, pId:12, name:"1#楼2层 202"},
-//         { id:123, pId:12, name:"1#楼2层 203"},
-//         { id:124, pId:12, name:"1#楼2层 204"},
-//         { id:125, pId:12, name:"1#楼2层 205"},
-//         { id:126, pId:12, name:"1#楼2层 206"},
-//         { id:127, pId:12, name:"1#楼2层 207"},
-//         { id:128, pId:12, name:"1#楼2层 208"},
-//
-//
-//
-//         { id:13, pId:1, name:"1#楼3层", open:true},
-//         { id:131, pId:13, name:"1#楼3层 301"},
-//         { id:132, pId:13, name:"1#楼3层 302"},
-//         { id:133, pId:13, name:"1#楼3层 303"},
-//         { id:134, pId:13, name:"1#楼3层 304"},
-//         { id:135, pId:13, name:"1#楼3层 305"},
-//         { id:136, pId:13, name:"1#楼3层 306"},
-//         { id:137, pId:13, name:"1#楼3层 307"},
-//         { id:138, pId:13, name:"1#楼3层 308"},
-//
-//
-//         { id:14, pId:1, name:"1#楼4层", open:true},
-//         { id:141, pId:14, name:"1#楼4层 401"},
-//         { id:142, pId:14, name:"1#楼4层 402"},
-//         { id:143, pId:14, name:"1#楼4层 403"},
-//         { id:144, pId:14, name:"1#楼4层 404"},
-//         { id:145, pId:14, name:"1#楼4层 405"},
-//         { id:146, pId:14, name:"1#楼4层 406"},
-//         { id:147, pId:14, name:"1#楼4层 407"},
-//         { id:148, pId:14, name:"1#楼4层 408"},
-//
-//
-//     ];
-//
-//     function showIconForTree(treeId, treeNode) {
-//         return !treeNode.isParent;
-//     };
-//
-//     $(document).ready(function(){
-//         $.fn.zTree.init($("#treeDemo"), setting, zNodes);
-//     });
-//
-// })
-
 // 日期选择
 $(function(){
     var DATAPICKERAPI = {
@@ -302,6 +167,149 @@ $(function(){
     });
 
 
+});
+
+// 饼图
+$(function () {
+    var dom = document.getElementById("bt");
+    var myChart = echarts.init(dom);
+    var app = {};
+    option = null;
+    app.title = '环形图';
+
+    option = {
+        tooltip: {
+            trigger: 'item',
+            formatter: "{a} <br/>{b}: {c} ({d}%)"
+        },
+        legend: {
+            orient: 'vertical',
+            x: 'right',
+            data:['1','2','3','4','5']
+        },
+        series: [
+            {
+                name:'访问来源',
+                type:'pie',
+                radius: ['50%', '70%'],
+                avoidLabelOverlap: false,
+                label: {
+                    normal: {
+                        show: false,
+                        position: 'center'
+                    },
+                    emphasis: {
+                        show: true,
+                        textStyle: {
+                            fontSize: '30',
+                            fontWeight: 'bold'
+                        }
+                    }
+                },
+                labelLine: {
+                    normal: {
+                        show: false
+                    }
+                },
+                data:[
+                    {value:335, name:'1'},
+                    {value:310, name:'2'},
+                    {value:234, name:'3'},
+                    {value:135, name:'4'},
+                    {value:1548, name:'5'}
+                ]
+            }
+        ]
+    };
+    ;
+    if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+    }
+});
+
+// 折现图
+$(function () {
+    var dom = document.getElementById("zxt");
+    var myChart = echarts.init(dom);
+    var app = {};
+    option = null;
+    app.title = '折柱混合';
+
+    option = {
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: {
+                type: 'cross',
+                crossStyle: {
+                    color: '#999'
+                }
+            }
+        },
+        toolbox: {
+            feature: {
+                // dataView: {show: true, readOnly: false},
+                magicType: {show: true, type: ['line', 'bar']},
+                // restore: {show: true},
+                // saveAsImage: {show: true}
+            }
+        },
+        // legend: {
+        //     data:['客户共区域用电','生产区域用电','平均用水量']
+        // },
+        xAxis: [
+            {
+                type: 'category',
+                data: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
+                axisPointer: {
+                    type: 'shadow'
+                }
+            }
+        ],
+        yAxis: [
+            {
+                type: 'value',
+                name: '电量/kwh',
+                min: 0,
+                max: 250,
+                interval: 50,
+                axisLabel: {
+                    formatter: '{value}'
+                }
+            },
+            {
+                type: 'value',
+                name: '平均电量/kwh',
+                min: 0,
+                max: 250,
+                interval: 50,
+                axisLabel: {
+                    formatter: '{value}'
+                }
+            }
+        ],
+        series: [
+            {
+                name:'客户共区域用电',
+                type:'bar',
+                data:[2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3]
+            },
+            {
+                name:'生产区域用电',
+                type:'bar',
+                data:[2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3]
+            },
+            {
+                name:'平均用水量',
+                type:'line',
+                yAxisIndex: 1,
+                data:[2.0, 2.4, 5.3, 30.6, 25.0,86.3,154.6,183.6,60.1,32.0,14.0,7.5]
+            }
+        ]
+    };
+    ;
+    if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+    }
 });
 
 // 日常
